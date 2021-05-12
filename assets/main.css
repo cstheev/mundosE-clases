@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont-header{
+    width: 100%;
+    height: 100vh;
+    background: url("slider-1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.ul{
+    padding-left: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex-row{
+    flex-direction: row;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img{
+    width: 128px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.container{
+    margin-left: 101px;
+    margin-right: 101px;
+}
+
+.box{
+    border-bottom: 1px solid #E0752F;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-ul a{
+    margin-right: 57px;
+    color: #fff;
+}
+
+.nav-ul a:last-child{
+    margin-right: 0;
+}
+
+.h1-header{
+    margin-top: 191px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    line-height: 55px;
+    font-size: 48px;
+}
+
+.p-header{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button-header{
+    margin-top: 39px;
+    width: 144px;
+    height: 48px;
+    background: #E0752F;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block{
+    width: 32px;
+    height: 384px;
+    background: #E0752F;
+    margin-top: 144px;
+    margin-bottom: 144px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 299px ;
+}
+
+.h2-services{
+    font-family: 'Poppins', sans-serif;
+    color: #343434;
+    font-size: 39px;
+    line-height: 45px;
+}
+
+.h2-services span{
+    color: #E0752F;
+}
+
+.p-services{
+    margin-top: 50px;
+    line-height: 25px;
+    width: 768px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px){
+    .container{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    img{
+        width: 90px;
+        height: 20px;
+    }
+    .nav-ul a{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .h1-header{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .p-header{
+        font-size: 12px;
+    }
+    .button-header{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
